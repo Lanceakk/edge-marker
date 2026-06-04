@@ -41,13 +41,29 @@ npm run build   # 输出到 dist/ （已忽略进 git）
 
 ## 部署
 
-本项目为纯静态站点，已配置好部署到 GitHub Pages：
+本项目为纯静态站点，推荐部署到 **Vercel**（免费、自动预览、CDN 快）：
 
-1. 推送到 GitHub 仓库后
-2. 进入仓库 **Settings → Pages**
-3. Source 选择 **Deploy from a branch**
-4. Branch 选 `main`，Folder 选 `/`（根目录）
-5. 保存后，几分钟即可通过 `https://lanceakk.github.io/edge-marker/` 访问
+### Vercel 部署（推荐）
+
+1. 访问 https://vercel.com/new/import?repository-url=https://github.com/Lanceakk/edge-marker
+2. 使用 GitHub 账号登录 / 授权 Vercel
+3. 选择仓库导入，点击 Deploy
+4. 几秒钟后即可获得 `https://edge-marker-xxxx.vercel.app` 地址
+5. 以后每次 push 到 main 都会自动重新部署
+
+或者使用 Vercel CLI（本地快速部署）：
+```bash
+npx vercel login
+npx vercel --yes --prod
+```
+
+已添加 `vercel.json` 配置为纯静态站点（根目录直接服务 `index.html`）。
+
+### GitHub Pages（备选）
+
+本项目也支持 GitHub Pages：
+- 仓库 Settings → Pages → Deploy from a branch → main + / 
+- 地址：https://lanceakk.github.io/edge-marker/
 
 ## 技术栈
 
