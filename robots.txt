@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://edge-maker-product-site.vercel.app/sitemap.xml
