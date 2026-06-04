@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>边缘造物｜LoRa 远距离监测与定制控制器</title>
+  <meta name="description" content="无需WiFi、无需4G、无需流量费的LoRa远距离温湿度、土壤、冷库、仓库多点监测方案。支持定制开发。闲鱼、淘宝现货发售。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <span class="logo">边</span>
+      <span>边缘造物</span>
+    </div>
+    <nav id="nav-menu">
+      <a href="#products">产品方案</a>
+      <a href="#scenes">应用场景</a>
+      <a href="#custom">定制开发</a>
+      <a href="#buy">购买渠道</a>
+      <a href="#contact" class="nav-cta">联系咨询</a>
+    </nav>
+    <button class="nav-toggle" aria-label="切换菜单" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">LoRa 远距离 · 零流量 · 工程师直供</p>
+        <h1>给仓库、冷库、大棚、设备间<br>一套真正省心的无线监测系统</h1>
+        <p class="lead">不插卡、不交流量费、不依赖WiFi。采集端直接放现场，接收端一处查看数据，可USB直连电脑记录，也支持按项目深度定制。</p>
+        <div class="hero-actions">
+          <a href="#buy" class="button primary">立即购买现货</a>
+          <a href="#contact" class="button secondary">定制需求咨询</a>
+        </div>
+        <div class="trust">
+          <span>最远 2-5km 传输</span>
+          <span>电池 / USB 供电</span>
+          <span>多点组网监控</span>
+          <span>协议 &amp; 接口可定制</span>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-hidden="true">
+        <div class="device device-main">
+          <div class="antenna"></div>
+          <div class="screen">24.6°C<br><small>RH 58%</small></div>
+          <div class="ports"><i></i><i></i><i></i></div>
+        </div>
+        <div class="signal s1"></div>
+        <div class="signal s2"></div>
+        <div class="signal s3"></div>
+        <div class="mini-card">USB 接收器<br><strong>实时显示 / 串口输出</strong></div>
+      </div>
+    </section>
+
+    <!-- Pain points -->
+    <section class="section pain">
+      <div class="section-title">
+        <p class="eyebrow">对比常见方案</p>
+        <h2>你真正需要的，不是一个“玩具传感器”</h2>
+      </div>
+      <div class="grid three">
+        <article>
+          <h3>普通 WiFi 方案</h3>
+          <p>现场没网、距离远、穿墙能力弱，容易掉线。后期配网、断线维护成本高，户外/地下室几乎不可用。</p>
+        </article>
+        <article>
+          <h3>4G / NB-IoT 方案</h3>
+          <p>需要插卡、长期支付流量费，设备多了以后成本爆炸。小项目或长期部署不划算，信号也受基站影响。</p>
+        </article>
+        <article>
+          <h3>LoRa 方案（推荐）</h3>
+          <p>采集端与接收端直连，远距离、低功耗、抗干扰。适合多点、仓库、冷库、大棚等场景，一次投入长期使用。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section">
+      <div class="section-title">
+        <p class="eyebrow">PRODUCTS</p>
+        <h2>现货 &amp; 可定制产品方案</h2>
+      </div>
+      <div class="product-grid">
+        <!-- Sensor -->
+        <article class="product">
+          <img src="images/sensor.jpg" alt="LoRa 温湿度采集器 - 工业级无线传感器" class="product-img">
+          <h3>LoRa 温湿度采集器</h3>
+          <p>适合仓库、机房、冷库、大棚、养殖场等环境监测。定时上报，接收端实时查看或导出历史。</p>
+          <ul>
+            <li>SHT 系列高精度温湿度传感器</li>
+            <li>电池供电（可续航半年+）或 USB 供电</li>
+            <li>采集间隔可远程/本地设置</li>
+            <li>支持多设备组网</li>
+          </ul>
+          <div class="price">¥199 起</div>
+          <a href="#contact" class="card-btn">咨询 / 定制此方案</a>
+        </article>
+
+        <!-- Receiver -->
+        <article class="product featured">
+          <div class="badge">主推</div>
+          <img src="images/receiver.jpg" alt="USB LoRa 接收器 - 即插即用数据网关" class="product-img">
+          <h3>USB LoRa 接收器</h3>
+          <p>插电脑即可接收多个采集端数据。可直接用串口工具查看，或我们提供上位机软件实时显示、记录、导出 CSV。</p>
+          <ul>
+            <li>USB 即插即用（供电+通信）</li>
+            <li>支持 1 对 N 同时接收</li>
+            <li>Windows / 上位机兼容</li>
+            <li>适合快速部署与调试</li>
+          </ul>
+          <div class="price">¥299 起</div>
+          <a href="#buy" class="card-btn">去渠道购买现货</a>
+        </article>
+
+        <!-- Controller -->
+        <article class="product">
+          <img src="images/controller.jpg" alt="通用 LoRa 采集控制器 - 支持多接口" class="product-img">
+          <h3>通用采集控制器</h3>
+          <p>支持 RS485 / RS232 / DI / DO / 以太网等多种接口，适合工业设备、PLC、传感器、报警器、土壤墒情仪等接入 LoRa 网络。</p>
+          <ul>
+            <li>接口组合灵活可选</li>
+            <li>Modbus / 私有协议可定制</li>
+            <li>可做节点或网关</li>
+            <li>支持中继扩展距离</li>
+          </ul>
+          <div class="price">按需求报价</div>
+          <a href="#contact" class="card-btn">提交定制需求</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Scenes -->
+    <section id="scenes" class="section scenes">
+      <div class="section-title">
+        <p class="eyebrow">SCENES</p>
+        <h2>真实场景验证过的方案</h2>
+      </div>
+
+      <div class="scene-visual">
+        <img src="images/warehouse.jpg" alt="仓库与冷库多点 LoRa 无线监测真实应用场景" />
+      </div>
+
+      <div class="scene-list">
+        <div>
+          <strong>仓库多点监测</strong>
+          <span>一个接收器查看数十个库位温湿度，异常自动提醒</span>
+        </div>
+        <div>
+          <strong>冷库 / 冷链防损</strong>
+          <span>温度异常 5 分钟内发现，大幅降低货物损失</span>
+        </div>
+        <div>
+          <strong>大棚与养殖场</strong>
+          <span>远距离 + 超低功耗，无需布线，电池续航长</span>
+        </div>
+        <div>
+          <strong>设备间 / 地下室 / 偏远点</strong>
+          <span>无 WiFi / 信号差的地方依然稳定工作</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Custom -->
+    <section id="custom" class="section custom">
+      <div>
+        <p class="eyebrow">CUSTOM DEVELOPMENT</p>
+        <h2>不只卖硬件，我们按现场给你做方案</h2>
+        <p>告诉我距离多远、需要几个点、测什么参数（温湿度 / 土壤 / 电压 / 电流 / 门磁 / 烟感…）、供电方式、是否要上位机 / PLC / 485 设备对接。我会给出最省钱可靠的完整方案，而不是让你买回去自己摸索。</p>
+      </div>
+      <div class="custom-box">
+        <h3>可定制项</h3>
+        <p>外壳尺寸与材质、传感器类型与精度、接口组合（RS485/RS232/DI/DO/以太网/模拟量）、采样与上报频率、报警阈值与联动逻辑、配套上位机界面、网关 / 中继 / 节点任意组合、协议定制（Modbus / 私有）。</p>
+      </div>
+    </section>
+
+    <!-- Buy channels (new, with provided links) -->
+    <section id="buy" class="section buy">
+      <div class="section-title">
+        <p class="eyebrow">BUY CHANNELS</p>
+        <h2>现货产品 · 直接下单渠道</h2>
+      </div>
+      <div class="shop-grid">
+        <a href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.4c053da6WIb4aG" target="_blank" rel="noopener" class="shop-card xianyu">
+          <h3>🛒 闲鱼店铺</h3>
+          <p>个人直销 · 支持议价 · 实时沟通<br>现货温湿度采集器、USB接收器等</p>
+          <span class="shop-cta">立即前往闲鱼主页购买 →</span>
+        </a>
+        <a href="https://m.tb.cn/h.RS9SEoXpHlJwpqd" target="_blank" rel="noopener" class="shop-card taobao">
+          <h3>🛍️ 淘宝购买</h3>
+          <p>官方移动链接 · 方便下单支付<br>支持退换，物流更快</p>
+          <span class="shop-cta">打开淘宝链接购买 →</span>
+        </a>
+      </div>
+      <p class="shop-note">标准产品支持现货快速发货。批量或定制方案请通过下方邮箱 / 闲鱼留言详细沟通，我会给出专属报价。</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="contact-card">
+        <p class="eyebrow">CONTACT &amp; CUSTOM</p>
+        <h2>需要定制方案，或对现货有疑问？</h2>
+        <p>把你的使用场景告诉我：距离、点位数量、测什么数据、供电方式、是否接电脑/PLC。我会快速给你最合适的推荐和报价。</p>
+
+        <div class="contact-methods">
+          <a href="mailto:ffbkfmbd@qq.com" class="contact-item">
+            ✉️ ffbkfmbd@qq.com
+          </a>
+          <a href="https://www.goofish.com/personal?spm=a21ybx.home.nav.1.4c053da6WIb4aG" target="_blank" rel="noopener" class="contact-item shop">
+            闲鱼店铺
+          </a>
+          <a href="https://m.tb.cn/h.RS9SEoXpHlJwpqd" target="_blank" rel="noopener" class="contact-item shop">
+            淘宝链接
+          </a>
+        </div>
+
+        <p class="contact-note">工作日 24 小时内回复。支持全国发货 + 远程技术指导。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 边缘造物 · LoRa 无线监测 &amp; 嵌入式定制开发 · 工程师一对一服务
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

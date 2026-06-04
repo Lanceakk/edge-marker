@@ -1,0 +1,12 @@
+{
+  "name": "edge-maker-product-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"const fs=require('fs');const path=require('path');fs.mkdirSync('dist/images',{recursive:true});['index.html','styles.css','script.js'].forEach(f=>fs.copyFileSync(f,path.join('dist',f)));fs.cpSync('images','dist/images',{recursive:true,force:true});console.log('✓ Build complete: dist/ updated with images');\"",
+    "start": "vite --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  }
+}
