@@ -45,7 +45,7 @@ npm run build   # 输出到 dist/ （已忽略进 git）
 
 ### Vercel 部署（推荐）
 
-**线上地址**：https://edge-lora.com
+**线上地址**：https://edge-maker-product-site.vercel.app
 
 1. 访问 https://vercel.com/new/import?repository-url=https://github.com/Lanceakk/edge-marker
 2. 使用 GitHub 账号登录 / 授权 Vercel
