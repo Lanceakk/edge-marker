@@ -6,7 +6,9 @@ LoRa 远距离无线监测与定制控制器产品站。
 
 ## 在线访问
 
-（部署到 GitHub Pages 后会在这里更新链接）
+**GitHub Pages 正式版**：https://lanceakk.github.io/edge-marker/
+
+**源代码仓库**：https://github.com/Lanceakk/edge-marker
 
 ## 本地预览
 
@@ -45,7 +47,7 @@ npm run build   # 输出到 dist/ （已忽略进 git）
 2. 进入仓库 **Settings → Pages**
 3. Source 选择 **Deploy from a branch**
 4. Branch 选 `main`，Folder 选 `/`（根目录）
-5. 保存后，几分钟即可通过 `https://<用户名>.github.io/<仓库名>/` 访问
+5. 保存后，几分钟即可通过 `https://lanceakk.github.io/edge-marker/` 访问
 
 ## 技术栈
 
